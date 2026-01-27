@@ -90,20 +90,20 @@ public class ShowHomeController {
 //		return "welcome";
 //	}
 	
-	@RequestMapping("/report")
-	public void showReport(HttpServletResponse response) throws IOException {
-		System.out.println("ShowHomeController.showReport()");
-		//give instruction to browser to make the response as downloadable content
-		response.setHeader("content-disposition", "attachment;filename=abc.html");
-		//set response content type
-		response.setContentType("text/html");
-		
-		//get printwriter
-		PrintWriter pw = response.getWriter();
-		pw.println("<b>System Date and Time: </b>"+new Date());
-		pw.close();
-	
-	}
+//	@RequestMapping("/report")
+//	public void showReport(HttpServletResponse response) throws IOException {
+//		System.out.println("ShowHomeController.showReport()");
+//		//give instruction to browser to make the response as downloadable content
+//		response.setHeader("content-disposition", "attachment;filename=abc.html");
+//		//set response content type
+//		response.setContentType("text/html");
+//		
+//		//get printwriter
+//		PrintWriter pw = response.getWriter();
+//		pw.println("<b>System Date and Time: </b>"+new Date());
+//		pw.close();
+//	
+//	}
 	
 	
 }
