@@ -29,6 +29,7 @@ public class SalaryController {
 		double taxAmount=(grossSalary*employee.getTaxPercentage())/100;
 		double netSalary=grossSalary-taxAmount;
 		
+		map.put("name", employee.getName());
 		map.put("netSalary", netSalary);
 		
 		return "salary-result";

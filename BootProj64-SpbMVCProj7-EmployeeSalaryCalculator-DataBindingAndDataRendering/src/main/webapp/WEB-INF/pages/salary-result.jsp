@@ -54,6 +54,15 @@
     ">
         Employee Net Salary
     </h2>
+    
+     <p style="
+        font-size: 22px;
+        font-weight: bold;
+        color: #185a9d;
+        margin-bottom: 25px;
+    ">
+        Name: ${name}
+    </p>
 
     <p style="
         font-size: 22px;
@@ -61,7 +70,7 @@
         color: #185a9d;
         margin-bottom: 25px;
     ">
-        ₹ ${netSalary}
+    	Salary: ₹ ${netSalary}
     </p>
 
     <a href="view" style="
