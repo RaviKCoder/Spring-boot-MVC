@@ -11,7 +11,7 @@
 
 	<h1 style="text-align: center; color: #2c3e50;">Student Admission Form</h1>
 
-	<form action="/submit-form" method="post"
+	<form action="submit-form" method="post"
 		style="width: 420px; margin: auto; padding: 20px; background: white; border-radius: 8px;">
 
 	<label>Student Name:</label>
